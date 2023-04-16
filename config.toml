@@ -1,0 +1,45 @@
+baseURL = 'https://russ-davey.github.io/me/'
+languageCode = 'en-uk'
+title = 'Russ Tech Site'
+theme = 'hugo-developer-portfolio'
+googleAnalytics = "G-MN1FV5Q81Q"
+
+[params.plugins]
+# CSS Plugins
+[[params.plugins.css]]
+URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+# JS Plugins
+[[params.plugins.js]]
+URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+[[params.plugins.js]]
+URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+# navigation
+[menu]
+[[menu.main]]
+name = "About"
+URL = "about"
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+[[menu.main]]
+name = "Portfolio"
+URL = "portfolio"
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+
+[params]
+home = "Home" # What you want the homepage to show up as in the menu bar
+# Meta data
+description = "The website of Russ Davey"
+author = "Russ Davey"
+
+
+[params.contact]
+formAction = "https://formspree.io/<Insert code>" # Add your formspree URL here to get emails
+
+# This contains the contact information for the footer
+[params.footer]
+address = "Bristol, UK"
+googlemaps = "https://goo.gl/maps/q3PWhzrD8tpgS8tf9"

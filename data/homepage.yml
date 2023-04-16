@@ -1,0 +1,80 @@
+banner:
+  title: Hi! I’m Russ
+
+social:
+  twitter: ""
+  linkedin: russell-davey-605b7746
+  github: russ-davey
+  medium: russ.davey
+
+about:
+  enable: true
+  content: Senior Software Engineer | Consultant | DevOps
+  button:
+    btnText: Find out more
+    URL: "/about"
+
+skill:
+  enable: true
+  item:
+    - title: GoLang
+      logo: https://cdn.worldvectorlogo.com/logos/go-8.svg
+      description: Experienced GoLang developer
+
+    - title: DevOps
+      logo: https://dt-cdn.net/wp-content/uploads/2021/07/13429_ILL_DevOpsLoop.png
+      description: DevOps has always been very present in my work, from implementing the practice into my day-to-day working to consulting large organisations and individuals on best practices
+
+    - title: TDD/BDD
+      logo: https://marsner.com/wp-content/uploads/test-driven-development-TDD.png
+      description: I'm a big fan of test first, and especially the BDD flavour of TDD, I believe it helps a lot with writing clean and efficient code
+
+portfolio:
+  enable: true
+  item:
+    - title: Kaluza Platform
+      image: https://www.kaluza.com/wp-content/uploads/2021/08/kaluza-hexagon_4x.png
+      description: From MVP to 4 million customers - energy billing platform
+      link: "portfolio/kaluza-platform"
+      tools:
+        - clojure
+        - kubernetes
+        - apachekafka
+        - googlecloud
+        - terraform
+
+    - title: ONS Static Files Publishing & Downloading
+      image: https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.svg
+      description: Project to revamp the services for publishing data at the ONS and public downloads
+      link: "/portfolio/ons-static-files"
+      tools:
+        - go
+        - terraform
+        - concourse
+        - vault
+        - amazonaws
+        - apachekafka
+
+experience:
+  enable: true
+  item:
+    - logo: https://www.axiell.com/app/themes/axiell/dist/images/logo_b3660c53.svg
+      title: Systems Engineer
+      company: Axiell
+      duration: 11 years
+
+    - logo: https://cdn.worldvectorlogo.com/logos/ovo-energy-logo.svg
+      title: Infrastructure / DevOps Engineer
+      company: OVO Energy
+      duration: 2 years
+
+    - logo: https://www.kaluza.com/wp-content/uploads/2021/12/KALUZA-dark-horizontal-1-1.png
+      title: Software Engineer
+      company: Kaluza
+      duration: 5 years
+
+    - logo: https://images.squarespace-cdn.com/content/v1/5b3296b78ab7229ecafcf4ed/fbcff630-0a11-48a7-b3ab-660932a977f0/2554+Armakuni%E2%80%93Logo+%28Outline%E2%80%93RGB%29+%281%29.png
+      title: Senior Software Engineer & Consultant
+      company: Armakuni
+      duration: October 2022
+
