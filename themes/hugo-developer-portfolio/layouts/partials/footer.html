@@ -1,27 +1,35 @@
 <!-- footer -->
 <footer class="footer">
-  <div class="uk-container">
+    <div class="uk-container">
 
-    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
-      <div>
-        <h5 class="uk-margin-small-bottom">Address</h5>
-          <div uk-lightbox>
-            <a href="{{.Site.Params.footer.googlemaps}}" data-caption="{{.Site.Params.footer.address}}"
-               data-type="iframe">{{.Site.Params.footer.address}}</a>
-          </div>
-      </div>
-    </div>
+        <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+            <div>
+                <h5 class="uk-margin-small-bottom">Address</h5>
+                <div uk-lightbox>
+                    <a href="{{.Site.Params.footer.googlemaps}}" data-caption="{{.Site.Params.footer.address}}"
+                       data-type="iframe">{{.Site.Params.footer.address}}</a>
+                </div>
+            </div>
+            <div>
+                <h5 class="uk-margin-small-bottom">Open to remote working</h5>
+                <img loading="lazy"
+                     src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Eo_circle_light-green_checkmark.svg"
+                     style="height: 1.2em;
+  width: 1.2em;" alt="Wikimedia Commons">
+                <div uk-lightbox>
+                </div>
+            </div>
+        </div>
 
-
-    <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
-      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+        <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+            <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
   width: 1.2em;" alt="Creative Commons">
-      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+            <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
   width: 1.2em;" alt="CC-BY">
-      {{ now.Year }}
-      {{.Site.Params.Author}}
+            {{ now.Year }}
+            {{.Site.Params.Author}}
+        </div>
     </div>
-  </div>
 </footer>
 
 
