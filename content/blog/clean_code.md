@@ -8,7 +8,7 @@ type: "post"
 
 # The Joy of Clean Code
 
-“So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.”
+### _“So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.”_
 ― Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 ## Introduction
